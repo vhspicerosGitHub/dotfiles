@@ -1,0 +1,43 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Bluloco Dark",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "none",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.indentation": false,
+    "indenticator.width": 0.1,
+    "indenticator.color.dark": "rgba(255,255,255,0.1)",
+    "editor.formatOnSave": true,
+    "json.schemas": [],
+    "editor.matchBrackets": "never",
+    "breadcrumbs.enabled": false,
+    "editor.glyphMargin": false,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.centeredLayoutAutoResize": true,
+    "workbench.editor.centeredLayoutFixedWidth": true,
+    "zenMode.showTabs": "none",
+    "zenMode.centerLayout": true,
+    "zenMode.silentNotifications": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "cascadia code PL, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "consolas",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-NoLogo"
+            ]
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "git.confirmSync": false,
+}
