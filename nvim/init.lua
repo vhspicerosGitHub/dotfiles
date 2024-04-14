@@ -1,0 +1,2 @@
+require("vhspiceros.init")
+
