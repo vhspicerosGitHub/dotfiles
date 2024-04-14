@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Bluloco Dark",
+    "workbench.colorTheme": "Default High Contrast",
     "workbench.sideBar.location": "right",
     "workbench.editor.showTabs": "none",
     "editor.minimap.enabled": false,
@@ -27,7 +27,7 @@
     "zenMode.silentNotifications": false,
     "zenMode.hideLineNumbers": false,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "cascadia code PL, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code, 'Courier New', monospace",
     "terminal.integrated.fontFamily": "consolas",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
@@ -40,4 +40,5 @@
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
 }
