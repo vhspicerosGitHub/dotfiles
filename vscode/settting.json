@@ -1,23 +1,24 @@
+
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Bluloco Dark",
     "workbench.sideBar.location": "right",
     "workbench.editor.showTabs": "none",
     "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.vertical": "auto",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.iconTheme": "material-icon-theme",
     "editor.guides.bracketPairs": "active",
-    "editor.guides.indentation": false,
+    "editor.guides.indentation": true,
     "indenticator.width": 0.1,
     "indenticator.color.dark": "rgba(255,255,255,0.1)",
     "editor.formatOnSave": true,
     "json.schemas": [],
     "editor.matchBrackets": "never",
     "breadcrumbs.enabled": false,
-    "editor.glyphMargin": false,
+    "editor.glyphMargin": true,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.location": "hidden",
     "workbench.editor.centeredLayoutAutoResize": true,
@@ -28,17 +29,160 @@
     "zenMode.hideLineNumbers": false,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "consolas",
+    "editor.fontWeight": "400", // Medium
+    "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
             "icon": "terminal-powershell",
-            "args": [
-                "-NoLogo"
-            ]
         },
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "git.suggestSmartCommit": false,
+    "glassit.alpha": 255,
+    "editor.lineNumbers": "relative",
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "#a9dc7660",
+    "vim.highlightedyank.duration": 250,
+    "vim.handleKeys": {
+        "<C-p>": false,
+        //"<C-w>": false,
+        "<C-j>": false,
+        "<C-b>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "m"
+            ],
+            "commands": [
+                "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "v",
+                "v"
+            ],
+            "commands": [
+                ":vsp"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "h",
+                "h"
+            ],
+            "commands": [
+                ":sp"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        }
+    ]
 }
